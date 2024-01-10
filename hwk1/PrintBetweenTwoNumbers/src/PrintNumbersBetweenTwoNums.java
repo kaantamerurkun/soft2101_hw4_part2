@@ -1,16 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author urkun
- */
 import java.util.Scanner;
 
-public class PrintNumbersBetweenTwoNums {
+public class PrintOddNumbersBetweenTwoNums {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -28,14 +18,16 @@ public class PrintNumbersBetweenTwoNums {
             return;
         }
 
-        // Print numbers between a and b
-        printNumbersBetweenTwoNums(a, b);
+        // Print odd numbers between a and b
+        printOddNumbersBetweenTwoNums(a, b);
     }
 
-    static void printNumbersBetweenTwoNums(int a, int b) {
-        // Print numbers between a and b
+    static void printOddNumbersBetweenTwoNums(int a, int b) {
+        // Print odd numbers between a and b
         for (int i = a + 1; i < b; i++) {
-            System.out.print(i + " ");
+            if (i % 2 != 0) {
+                System.out.print(i + " ");
+            }
         }
 
         // Add a new line for better formatting
