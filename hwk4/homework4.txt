@@ -1,1 +1,51 @@
+STEP 1:
+urkun@Kaan MINGW64 ~
+$ git config --global user.name "kaantamerurkun"
 
+urkun@Kaan MINGW64 ~
+$ git config --global user.email "urkun33@gmail.com"
+
+urkun@Kaan MINGW64 ~
+$ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+
+urkun@Kaan MINGW64 ~
+$ git config --list
+user.name=kaantamerurkun
+user.email=urkun33@gmail.com
+core.editor='C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin
+
+STEP 2:
+urkun@Kaan MINGW64 ~/OneDrive/Desktop/soft2101_hw4_part2 (main)
+$ git clone "https://github.com/kaantamerurkun/soft2101_hw4_part2.git"
+Cloning into 'soft2101_hw4_part2'...
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (7/7), done.
+
+urkun@Kaan MINGW64 ~/OneDrive/Desktop/soft2101_hw4_part2 (main)
+$ git show --name-only main
+commit 11dab5ae827744b497e359867f4f16aa6192d523 (HEAD -> main, origin/main, origin/HEAD)
+Author: kaantamerurkun <153518700+kaantamerurkun@users.noreply.github.com>
+Date:   Wed Jan 10 12:32:52 2024 +0300
+
+    Create homework4.txt
+
+hwk4/homework4.txt
+
+STEP 3:
+(https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisayar-muhendisligi/programlar/lisans-programi/yazilim-muhendisligi)
+We have to write the link between "()" double parenthesis to create a link in markdown language.
+
+STEP 4:
+rules.gitignore file includes the C.gitignore and C++.gitignore
+
+STEP 5:
+commits made are to upload the project which prints between two range numbers, not including the ranges.
+Files that are in hmk1 directory is the PrintBetweenTwoNumbers file.
+
+STEP 6:
+Commit that made is to change the PrintBetweenTwoNumbers method to print the odd numbers within range.
+
+STEP 7: Differences are the main branch now includes only feature-3 branch's functionality, while feature-2 branch includes the printing odd numbers in the range. In summary, main and feature-3 includes the printing even numbers but feature-2 includes printing odd numbers.
